@@ -1,0 +1,292 @@
+/* 
+    Created on : 10/05/2021, 09:43:15 AM
+    Author     : Diana V
+*/
+
+@page {
+  size: letter;/*letter es el valor por defecto */
+  margin: 0;
+  color-adjust: exact;  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.volver{
+    display: none;
+}
+.opciones{
+    display: none;
+}
+.hojaVida{
+	font-family:'Arial', Helvetica;
+	background: #fff;
+	width:100%;
+	height:auto;
+	margin: 0;
+	text-align:center;
+    	-webkit-print-color-adjust: exact;
+}
+
+.hojaVida h5{
+	display:none;
+}
+
+.hojaVida .izquierda{
+}
+
+.hojaVida .saltoPagina{
+	display:block;
+	page-break-before:always;
+}
+
+.hojaVida table{
+  	border-collapse:collapse;
+  	border: none;
+	font-size:10px;
+}
+.hojaVida .titulos{
+	color:#fff;
+	background:#012138;
+	border:1px solid #03477e;
+	font-size:11px;
+}
+.hojaVida .subTitulos{
+	color:#000;
+	background:#D0D0D0;
+	border:1px solid #03477e;
+	font-size:11px;
+}
+
+.hojaVida .encabezado{
+	width:94%;
+	height:70px;
+	margin:30px auto 10px;
+	border:1px solid #03477e;
+}
+
+.hojaVida .encabezado label{
+	font-size:14px;
+}
+
+.hojaVida .encabezado th{
+	border:1px solid #03477e;
+}
+.hojaVida .encabezado span{
+	font-weight: lighter;
+}
+.hojaVida .informacionGeneral{
+	width:94%;
+	margin:5px auto;
+}
+.hojaVida .informacionGeneral td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:185px;
+}
+
+.hojaVida .informacionGeneral img{
+	box-shadow: 2px 2px 5px #999;
+	border:1px solid rgba(117,117,117,.5);
+	margin: 7px;
+}
+
+.hojaVida .informacionGeneral p{
+	width:95%;
+	text-align: justify;
+	height:120px;
+	margin:5px auto;
+}
+
+.hojaVida .informacionGeneral .tituloNombre{
+	font-size:20px;
+	text-align: left;
+	background: #011D31;
+	border:1px solid #03477e;
+	color: #fff;
+	height:30px;
+}
+.hojaVida .informacionGeneral .subtitulos{
+}
+.hojaVida .localizacion{
+	width:94%;
+	margin: 5px auto;
+}
+
+.hojaVida .localizacion .subtitulos{
+	text-align:left;
+	width:135px;
+}
+
+.hojaVida .localizacion td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .adquisicion{
+	width:94%;
+	margin:5px auto;
+}
+
+.hojaVida .adquisicion td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:30%;
+}
+.hojaVida .adquisicion .subTitulos{
+	text-align: left;
+	height:20ipx;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas{
+	width:94%;
+	margin:5px auto;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas .subTitulos{
+	text-align: left;
+	width:225px;
+	height:18px;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas td{
+	text-align:center;
+	border:1px solid #03477e;
+	width: 178px;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas img{
+	margin: -1px 0 -1px 8px;
+	padding-top: 2px;
+
+}
+.hojaVida .apoyotecnico{
+	width:94%;
+	margin:5px auto;
+}
+
+.hojaVida .apoyotecnico td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:20%;
+}
+.hojaVida .apoyotecnico .tds{
+	text-align:left;
+}
+.hojaVida .apoyotecnico .tds img{
+	margin: -1px 27px;
+	padding-top: 2px;
+}
+.hojaVida .apoyotecnico .tds label{
+ 	font-weight:bold;
+}
+.hojaVida .fotografiaEquipo{
+	width:94%;
+	margin:5px auto;
+	height:135px;
+}
+.hojaVida .fotografiaEquipo label{
+	font-weight:bolder;
+	color: #7D7D7D;
+	font-size:10px;
+}
+.hojaVida .fotografiaEquipo td{
+	border:1px solid #03477e;
+}
+.hojaVida .fotografiaEquipo th{
+	border:1.5px solid #0686B9;
+}
+.hojaVida .fotografiaEquipo img{
+	min-height:110px;
+	max-width:120px;
+	margin:3px auto;
+}
+
+.hojaVida .descripcionFunacional{
+	width:94%;
+	margin:5px auto;
+}
+.hojaVida .descripcionFunacional td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .descripcionFunacional p{
+	width:94%;
+	text-align: justify;
+	height:50px;
+	margin:3px auto;
+	
+}
+.hojaVida .componentesEquipos{
+	width:94%;
+	margin:5px auto;
+}
+.hojaVida .componentesEquipos td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:33%;
+}
+.hojaVida .tecPredominante{
+	width:94%;
+	margin: 5px auto 5px;
+}
+.hojaVida .tecPredominante td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .tecPredominante .subtitulos{
+	width:100px;
+}
+.hojaVida .tecPredominante .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .tecPredominante .intro{
+	width:150px;
+	margin:1 auto;
+	text-align:left;
+}
+.hojaVida .tecPredominante .intro2{
+	width:300px;
+	margin:1 auto;
+	text-align:left;
+}
+
+.hojaVida .tecPredominante section img{
+	margin:-2px 3px;
+    padding-top: 3px;
+}
+
+.hojaVida .mantenimientoCalibracion{
+	width:94%;
+	margin:5px auto;
+}
+.hojaVida .mantenimientoCalibracion .subtitulos{
+	width: 120px;
+}
+
+.hojaVida .mantenimientoCalibracion td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .mantenimientoCalibracion img{
+	margin:1px 5px;
+}
+.hojaVida .recomendacionFabricante{
+	width: 94%;
+	margin:5px auto;
+}
+
+.hojaVida .recomendacionFabricante p{
+	width:97%;
+	height:auto;
+	min-height:60px;
+	margin:3px auto;
+	text-align:justify;
+	text-transform: uppercase;	
+}
+.hojaVida .recomendacionFabricante td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+

@@ -1,0 +1,433 @@
+/* 
+    Created on : 20/09/2019, 02:29:55 PM
+    Author     : Diana V
+*/
+@page {
+  size: letter;/*letter es el valor por defecto */
+  margin: 0;
+  color-adjust: exact;  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.reporteMantenimiento{
+    font-family: 'Arial',monospace;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+}
+.reporteMantenimiento .encabezado{
+    margin:20px;
+    width: 95%;
+    height: 125px;
+    margin-bottom: 0px;
+}
+.reporteMantenimiento .encabezado .izquierda{
+    text-align: center;
+    height: 115px;
+    width: 32%;
+    float: left;
+    font-size: 13px;
+    color: #061E41;
+}
+.reporteMantenimiento .encabezado .titulo{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.reporteMantenimiento .encabezado .izquierda .numeroReporte{
+    font-size: 25px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: bold;
+    border: 2px dashed #4775A6;
+    color: #9F0404;
+    padding: 8px;
+    width: 100px;
+    margin: 10px auto;
+}
+.reporteMantenimiento .encabezado .imagenes{
+    width: 68%;
+    height: 115px;
+    float: right;
+    display: flex;
+    margin: 0 auto;
+}
+.reporteMantenimiento .formulario{
+    width: 95%;
+    margin: 0 auto;
+}
+.reporteMantenimiento .formulario .titulo{   
+    background: #4775A6;
+    margin: 3px auto;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding: 2px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid #18385B;
+}
+.reporteMantenimiento .formulario .subTitulo{   
+    background: #4775A6;
+    color: #fff;
+    width: 50%;
+    height: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 auto;    
+    text-align: center;
+    margin-top: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+    border: 1px solid #18385B;  
+    border-bottom: none;
+}
+.reporteMantenimiento .formulario .datosCliente{
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 3px;
+    font-size: 12px;
+    border: 1px solid #163E78;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .datosCliente th{
+    text-align: initial;
+    background: rgba(173,185,201,.5);
+    height: 20px;
+    width: 230px;
+    border-right: 1px solid #163E78;
+}
+.reporteMantenimiento .formulario .datosCliente td{
+    text-align: initial;   
+}
+.reporteMantenimiento .formulario .bordeSuperiorIzquierdo{
+    border-top-left-radius: 8px;
+}
+.reporteMantenimiento .formulario .bordeInferiorIzquierdo{
+    border-bottom-left-radius: 8px;
+}
+.reporteMantenimiento .formulario .bordeSuperiorDerecho{
+    border-top-right-radius: 8px;
+}
+.reporteMantenimiento .formulario .bordeInferiorDerecho{
+    border-bottom-right-radius: 8px;
+}
+.reporteMantenimiento .formulario .datosEquipo{
+    width: 100%;
+    border-spacing: 0;
+    font-size: 12px;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .datosEquipo th{
+    text-align: initial;
+    background: rgba(173,185,201,.5);
+    height: 20px;
+    border-right: 1px solid #18385B;    
+}
+.reporteMantenimiento .formulario .datosEquipo td{
+    text-align: initial;
+}
+.reporteMantenimiento .formulario .tipoEquipo{
+    width: 100%;
+    height: 20px;
+    margin:3px auto;
+    border-spacing: 0;
+    font-size: 12px;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .tipoEquipo th{
+    background: rgba(173,185,201,.5);
+    text-align: initial;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 175px;
+    border-right: 1px solid #18385B;
+}
+.reporteMantenimiento .formulario .tipoEquipo td{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    font-size: 12px;
+    border-spacing: 0;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento th{
+    background: rgba(173,185,201,.5);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: 1px solid #18385B;
+    width: 175px;
+    text-align: initial;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento .botones{
+    list-style: none;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento .botones li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento .botones li label{
+    padding-left: 35px;
+    position: relative;
+    left: -25px;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento .botones li span{
+    margin-left: 2px;
+}
+.reporteMantenimiento .formulario .tipoMantenimiento .botones li .subrayar{
+    width: 90%;
+    height: 10px;
+    margin-top: 1px;
+    border-bottom: 1px solid #18385B;
+    font-style: oblique;
+}
+.reporteMantenimiento .formulario .tipoFalla{
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 10px;
+    height: 45px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .tipoFalla .botones{
+    list-style-type: none;
+}
+.reporteMantenimiento .formulario .tipoFalla .botones li{
+    display: block;
+    width: 20%;
+    float: left;
+}
+.reporteMantenimiento .formulario .tipoFalla .botones li label{
+    padding-left: 35px;
+    position: relative;
+    left: -25px;
+}
+.reporteMantenimiento .formulario .tipoFalla .botones li span{
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  text-align: center;
+  width: 13px;
+  height: 13px;
+  background: #fff;
+  left: 10px;
+}
+.reporteMantenimiento .formulario .tipoFalla .botones li .subrayar{
+    width: 90%;
+    height: 15px;
+    margin-top: 1px;
+    border-bottom: 1px solid #18385B;
+    font-style: oblique;
+}
+.reporteMantenimiento .formulario .problema{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    margin: 3px auto;
+    border-spacing: 0;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .problema th{
+    background: rgba(173,185,201,.5);
+    text-align: initial;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 200px;
+    border-right: 1px solid #18385B;
+}
+.reporteMantenimiento .formulario .problema td{
+    text-align: initial;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.reporteMantenimiento .formulario .actividades{
+    width: 100%;
+    height: 115px;
+    font-size: 12px;
+    border-spacing: 0; 
+    min-height: 130px;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .actividades th{
+    width: 400px;
+    min-width: 140px;
+    height: 20px;
+    background: rgba(173,185,201,.5);
+    border-bottom: 1px solid #18385B;
+    border-left: 1px solid #18385B;
+}
+.reporteMantenimiento .formulario .actividades td{
+    text-align: left;
+    font-size: 10px;
+    
+}
+.reporteMantenimiento .formulario .actividades td div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.reporteMantenimiento .formulario .datosMetrologicos{
+    width: 100%;
+    font-size: 12px;
+    border-spacing: 0;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .datosMetrologicos th{
+    background: rgba(173,185,201,.5);
+}
+.reporteMantenimiento .formulario .datosMetrologicos td{
+    border-top: 1px solid #18385B;
+    text-align: center;
+    height: 17px;
+    font-size: 10px;
+}
+.reporteMantenimiento .formulario .repuestos{
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .repuestos th{
+    background: rgba(173,185,201,.5);
+    width: 30%;
+}
+.reporteMantenimiento .formulario .repuestos td{
+    text-align: center;
+    border-top: 1px solid #18385B;
+    height: 17px;
+    font-size: 10px;
+}
+.reporteMantenimiento .formulario .observaciones{
+    font-size: 12px;
+    border: 1px solid #18385B;
+    border-radius: 8px;
+    width: 100%;
+    border-spacing: 0;
+    color: #061E41;
+}
+.reporteMantenimiento .formulario .observaciones th{
+    border-bottom: 1px solid #18385B;
+    background: rgba(173,185,201,.5);
+    text-align: justify;
+    height: 23px;
+    display: block;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.reporteMantenimiento .formulario .observaciones th ul{
+    list-style: none;
+}
+.reporteMantenimiento .formulario .observaciones th ul li{
+    display: block;
+    float: left;
+}
+.reporteMantenimiento .formulario .observaciones th label{
+    padding-left: 38px;
+    position: relative;
+    left: -25px;
+    font-weight: lighter;
+}
+.reporteMantenimiento .formulario .observaciones th span{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    left: 10px;
+}
+.reporteMantenimiento .formulario .observaciones td{
+    height: 40px;  
+    font-size: 10px;
+}
+.reporteMantenimiento .formulario .observaciones td p{
+    text-align: justify;
+    margin: 3px;
+}
+.reporteMantenimiento .formulario .firmas{
+    width: 100%;
+	height:82px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #061E41;
+	margin-top:2px;
+}
+.reporteMantenimiento .formulario .firmas .firmaIngeniero{
+    width: 49%;
+    float: left;
+    height: 25px;
+    text-align: center;
+}
+.reporteMantenimiento .formulario .firmas .firmaSatisfaccion{
+    width: 49%;
+    float: right;
+    height: 25px;
+    text-align: center;
+}
+.reporteMantenimiento .formulario .firmas hr{
+    height: 1px;
+    background: #18385B;
+    margin: 3px auto;
+    width: 300px;
+    border: none;
+}
+.reporteMantenimiento .formulario .piePagina{
+	color: #061E41;
+    font-weight: bolder;
+    font-style: italic;
+}
+.reporteMantenimiento .formulario .piePagina .version{
+    width: 100%;
+    height: 20px;
+    position: fixed;
+}
+.reporteMantenimiento .formulario .piePagina p{
+    font-size: 8px;
+	text-align:center;
+}
+.reporteMantenimiento .formulario .piePagina .img{
+    opacity: 0.5;
+    float: right;
+}
+.volver{
+    display: none;
+}
+.opciones{
+    display: none;
+}
+header{
+    display: none;
+}
+
+#listados{
+    display: none;
+}
+#contenido{
+	display: none;
+}
+/*inicio estilo hoja vida*/

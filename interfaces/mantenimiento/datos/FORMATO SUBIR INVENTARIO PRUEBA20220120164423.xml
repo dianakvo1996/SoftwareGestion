@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Luffi</Author>
+  <LastAuthor>Comercial</LastAuthor>
+  <LastPrinted>2020-06-30T14:04:25Z</LastPrinted>
+  <Created>2013-10-04T19:53:50Z</Created>
+  <LastSaved>2022-01-20T21:36:56Z</LastSaved>
+  <Company>Luffi</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6750</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="[$-F800]dddd\,\ mmmm\ dd\,\ yyyy"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="[$-F800]dddd\,\ mmmm\ dd\,\ yyyy"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Cambria" x:Family="Roman" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Cambria" x:Family="Roman" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Cambria" x:Family="Roman" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Bold="1"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="[$-F800]dddd\,\ mmmm\ dd\,\ yyyy"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Hoja1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="141"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="84.75" ss:Span="2"/>
+   <Column ss:Index="7" ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="126"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="98.25"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="34.5"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="100.5"/>
+   <Row ss:Index="6" ss:AutoFitHeight="0" ss:Height="4.5">
+    <Cell ss:MergeAcross="9" ss:StyleID="s92"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s93"><Data
+      ss:Type="String">EMPRESA : </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s94"><Data
+      ss:Type="String">BUENAVENTURA </Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s95"><Data ss:Type="String">TIPO:</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BIOMEDICO:</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PATRON:</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s96"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:Index="6" ss:StyleID="s67"><Data ss:Type="String">INDUSTRIAL:</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPUTO:</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s96"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:MergeAcross="1" ss:StyleID="s93"><Data ss:Type="String">FECHA:</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s97"><Data ss:Type="DateTime">2022-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"><Data ss:Type="String">OTROS: ¿Cuál?</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s96"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">ITEM</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s90"><Data ss:Type="String">CODIGO ACTIVO FIJO</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">EQUIPO</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">MARCA</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">MODELO</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">SERIE</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">UBICACIÓN </Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s89"><Data ss:Type="String">ACCESORIOS</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="2" ss:StyleID="s91"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><B>OBSERVACION</B><Font> </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18"/>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0405936</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BASCULA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">KENWELL</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">EB7500</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0413619</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BASCULA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">HEALTH O METER</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">142KL</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1420085119</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0408067</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BALANZA PEDIATRICA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">SECA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">354</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">8354077170392</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0407818</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BASCULA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">DETECTO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">DE PEDESTAL</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1731605310014</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0413523</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BASCULA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">GMD</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">KORPUS300</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">20201222011956</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BALANZA PEDIATRICA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">INFANT SCALE</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ACS-20B-YE</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">BD10030792</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">LORD </Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">921840</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCIÓN-ENFERMERIA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">LORD </Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">912403</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION-ENFERMERIA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0405930410865</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">GMD</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0407666</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">LORD </Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">PEDIATRICO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1089150</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0413519</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">GMD</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">GMD</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION-VISITA DOMICILIARIA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">TENSIOMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">SPHIGMOMANOMETHER</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ADULTO</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">PULSOXIMETRO</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NO REGISTRA </Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NO REGISTRA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION-COVID19</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s85"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0413522</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">BASCULA</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">GMD</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">KORPUS300</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2020122201826</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">NEFROPROTECCION</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">N/A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s87"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.31496062992125984"/>
+    <Footer x:Margin="0.31496062992125984"/>
+    <PageMargins x:Bottom="0.74803149606299213" x:Left="0.62992125984251968"
+     x:Right="0.62992125984251968" x:Top="0.74803149606299213"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>80</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>80</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R13C2:R27C2</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(C6,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='color:purple;font-weight:400;background:#FF99CC;mso-pattern:
+     none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R13C6:R27C6</Range>
+   <Condition>
+    <Value1>AND(COUNTIF(C9,RC)&gt;1,NOT(ISBLANK(RC)))</Value1>
+    <Format Style='color:purple;font-weight:400;background:#FF99CC;mso-pattern:
+     none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

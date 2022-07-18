@@ -1,0 +1,474 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../imagenes/background.png);
+	background-size: contain;     
+    	font-family: "Cabin",  Calibri;
+}
+.checkMostrar{
+	width: 99%;
+	height: auto;
+	margin: 0 auto; 
+}
+.checkMostrar .li{
+ 	display: block;
+    width: 300px;
+	height:30px;
+	background:rgba(157,157,157,.5);
+	border-bottom:2px solid #9D9D9D;
+	margin:5px 0;
+}
+
+.checkMostrar .li label{
+	padding-left: 20px;
+	position: relative;
+    	left: -15px;
+}
+.checkMostrar .li label:hover{
+	cursor: pointer;
+}
+.checkMostrar .li span{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	border: 2px solid #ccc;
+	border-radius:10px;
+	width: 18px;
+	height: 18px;
+	background: #fff;
+}
+.botonCheck{
+    display: none;
+}
+
+ .botonCheck:checked + span::before{
+	content: '';
+	border: 2px solid #fff;
+	border-radius:10px;
+	position: absolute;
+    	width: 14px;
+    	height: 14px;
+    	background-color: rgba(173,185,201,.5);
+	text-align:center;
+}
+
+.checkMostrar .mostrarEsconder{
+	display:none;
+}
+
+.hojaVida{
+	font-family:'Arial', Helvetica;
+	background: #fff;
+	width: 100%;
+	margin:auto;
+	min-width:1240px;
+	max-width:1240px;
+	text-align:center;
+	height: 800px;
+	border: 1px dotted #b4b4b4;
+}
+
+.hojaVida table{
+  	border-collapse:collapse;
+  	border: none;
+	font-size:10px;
+}
+.hojaVida .titulos{
+	color:#fff;
+	background:#012138;
+	border:1px solid #03477e;
+font-size:11px;
+}
+.hojaVida .subTitulos{
+	color:#000;
+	background:#D0D0D0;
+	border:1px solid #03477e;
+	font-size:11px;
+}
+
+.hojaVida .encabezado{
+ 	display: none;
+}
+
+.hojaVida .informacionGeneral{
+	width:605px;
+	margin:5px;
+}
+.hojaVida .informacionGeneral img{
+	box-shadow: 2px 2px 5px #999;
+	border:1px solid rgba(117,117,117,.5);
+}
+
+.hojaVida .informacionGeneral p{
+	width:95%;
+	text-align: justify;
+	height:120px;
+	margin:5px auto;
+}
+
+.hojaVida .encabezado label{
+	font-size:14px;
+}
+
+.hojaVida .informacionGeneral .tituloNombre{
+	font-size:20px;
+	text-align: left;
+	background: #011D31;
+	border:1px solid #03477e;
+	color: #fff;
+	height:30px;
+}
+.hojaVida .informacionGeneral td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:185px;
+}
+.hojaVida .informacionGeneral .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+.hojaVida .localizacion{
+	width:605px;
+	margin:5px;
+}
+.hojaVida .localizacion .subTitulos{
+	text-align: center;
+}
+
+.hojaVida .localizacion td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:75%;
+}
+
+.hojaVida .localizacion .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+	font-family:'Arial';
+}
+
+.hojaVida .adquisicion{
+	width:605px;
+	margin:5px;
+}
+.hojaVida .adquisicion .subTitulos{
+	height:18px;
+	width:160px;
+}
+
+.hojaVida .adquisicion td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .adquisicion .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas{
+	width:605px;
+	margin:5px;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas .subTitulos{
+	width:210px;
+	height:18px;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas td{
+	text-align:center;
+	border: 1px solid #03477e;
+	width:100px;
+}
+
+.hojaVida .caracteristicasFisicasTecnicas img{
+	margin: -1px 0 -1px 8px;
+	padding-top: 2px;
+}
+.hojaVida .caracteristicasFisicasTecnicas .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .apoyotecnico{
+	width:605px;
+	margin:5px;
+}
+
+.hojaVida .apoyotecnico td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:20%;
+}
+.hojaVida .apoyotecnico .tds{
+	text-align:left;
+}
+.hojaVida .apoyotecnico .tds img{
+	margin: -1px 20px;
+	padding-top: 2px;
+}
+.hojaVida .apoyotecnico .tds label{
+ 	font-weight:bold;
+}
+.hojaVida .apoyotecnico .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .fotografiaEquipo{
+	width:605x;
+	margin:5px;
+	height:133px;
+}
+
+.hojaVida .fotografiaEquipo label{
+	font-weight:bolder;
+	color: #7D7D7D;
+	font-size:11px;
+}
+.hojaVida .fotografiaEquipo td{
+	border:1px solid #03477e;	
+}
+
+.hojaVida .fotografiaEquipo th{
+	border:1.5px solid #0686B9;
+}
+.hojaVida .fotografiaEquipo p{
+	width:95%;
+	text-align: justify;
+	height:97px;
+	margin:3 auto;
+}
+.hojaVida .fotografiaEquipo img{
+	min-height:110px;
+	max-width:120px;
+	margin:3px auto;
+}
+.hojaVida .fotografiaEquipo .subtitulos{
+width:137px;
+}
+.hojaVida .descripcionFunacional{
+	width:605x;
+	margin:5px;
+}
+.hojaVida .descripcionFunacional td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .descripcionFunacional p{
+	width:97%;
+	text-align: justify;
+	height:50px;
+	margin:3px auto;
+}
+.hojaVida .componentesEquipos{
+	width:605px;
+	margin:5px;
+}
+.hojaVida .componentesEquipos td{
+	text-align:center;
+	border:1px solid #03477e;
+	width:33%;
+}
+.hojaVida .componentesEquipos .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+.hojaVida .tecPredominante{
+	width:605px;
+	margin:5px;
+}
+.hojaVida .tecPredominante td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+
+.hojaVida .tecPredominante .subtitulos{
+	width:100px;
+}
+
+.hojaVida .tecPredominante .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .tecPredominante .intro{
+	width:150px;
+	margin:3px auto;
+	text-align:left;
+}
+.hojaVida .tecPredominante .intro2{
+	width:270px;
+	margin:0 auto;
+	text-align:left;
+}
+
+.hojaVida .tecPredominante section img{
+	margin:-2px 3px;
+    padding-top: 3px;
+}
+
+.hojaVida .mantenimientoCalibracion{
+	width:605px;
+	margin:5px;
+}
+
+.hojaVida .mantenimientoCalibracion .subtitulos{
+	width: 120px;
+}
+.hojaVida .mantenimientoCalibracion td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+.hojaVida .mantenimientoCalibracion img{
+	margin:1px 5px;
+}
+.hojaVida .mantenimientoCalibracion .cajon{
+	width:90%;
+	border: 1px solid #0686B9;
+}
+
+.hojaVida .recomendacionFabricante{
+	width:605px;
+	margin:5px; 
+}
+
+.hojaVida .recomendacionFabricante p{
+	width:95%;
+	height:auto;
+	min-height:80px;
+	margin:3px auto;
+	text-align:justify;
+	text-transform: uppercase;
+}
+
+.hojaVida .recomendacionFabricante td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+
+.hojaVida .rutinaMantenimiento{
+	width: 605px;
+	margin: 5px; 
+}
+
+.hojaVida .rutinaMantenimiento p{
+	width:95%;
+	height:auto;
+	min-height:50px;
+	margin:3px auto;
+	text-align:justify;
+	text-transform: uppercase;
+}
+
+.hojaVida .rutinaMantenimiento input{
+	float: right;
+}
+.hojaVida .rutinaMantenimiento td{
+	text-align:center;
+	border:1px solid #03477e;
+}
+
+.hojaVida .accionHV2{
+	width:610px;
+	margin:15px 10px; 
+}
+.hojaVida .accionHV2 a{
+	text-decoration:none;
+	color:#fff;
+	border:1px solid #03477e;
+	padding: 5px 20px;
+	background: rgba(1,33,56,.6);
+}
+.hojaVida .accionHV2 a:hover{
+	background: #012138;
+	font-weight: bold;
+}
+.hojaVida .izquierda{
+	float:left;
+ 	position: sticky;
+}
+.hojaVida .derecha{
+	float:right;
+	position: sticky;
+    	width: 615px;
+
+}
+ /*Fin Estilo Hoja de Vida */ 
+ /*Inicio Estilo menu de años*/
+.menuAnios{
+	width:97%;
+	margin: 2px auto;
+}
+.menuAnios label{
+	
+}
+.menuAnios select{
+	width:200px;
+	height:30px;
+	font-size:1em;
+	text-align:center;
+	border:1px solid  #9D9D9D;
+	font-weight: bold;
+}
+.menuAnios select:focus{ 
+	outline: none;
+}
+.mostrarReportes{
+	border:2px solid #9D9D9D;
+	height:500px;
+	width:97%;
+	min-width:1243px;
+    max-width: 1243px;
+	margin:0 auto;
+}
+.mostrarReportes .seleccionFecha{
+	background: rgba(3,71,126,.5);
+    	width: 30%;
+    	height: 100%;
+    	max-width: 372px;
+	border-right:2px solid rgb(3,71,126);
+	text-align:center;
+	float:left;
+}
+.mostrarReportes a{
+	display:block;
+	border: 1px solid #fff;
+	margin:5px;
+	padding:5px;
+	text-decoration:none;
+	background:rgba(255,255,255,.5);
+	color:#000;
+	cursor: pointer;
+}
+.mostrarReportes a:hover{
+	background:#fff;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+visorRPDF{
+	height:500px;
+	width:70%;
+	min-width:870px;
+float:right;
+}
+.visorRPDF iframe{
+	width:70%;
+	height: 100vh;
+	max-height:499px;
+	max-width:865px;
+	float:right;
+}
+ /*Fin Estilo Menu Años*/ 
+ /*Inicio Estilo Visor pdf*/
+.visorPDF{
+	height:500px;
+}
+.visorPDF iframe{
+	width:99%;
+	height: 100vh;
+	max-height:499px;
+}
